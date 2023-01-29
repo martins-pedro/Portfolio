@@ -6,3 +6,43 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    height: 3rem;
+    align-items: center;
+}
+
+#logo {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 5rem;
+}
